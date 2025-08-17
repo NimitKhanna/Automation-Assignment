@@ -1,4 +1,9 @@
 Test Suite Started
 loginCSVTest FAILED
 java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "userList" is null
-Test Suite Completed
+loginTest FAILED
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 2 column 12 path $.data:
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+loginExcelTest FAILED
+
+Data Provider public void com.util.dataproviders.LoginDataProvider.loginExcelDataProvider() returned a null value

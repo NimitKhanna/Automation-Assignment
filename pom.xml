@@ -19,9 +19,9 @@
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
-						<browser>chrome</browser>
-						<isLambdatest>false</isLambdatest>
-						<isHeadless>true</isHeadless>
+						<browser>${browser}</browser>
+						<isLambdatest>${isLambdaTest}</isLambdatest>
+						<isHeadless>${isHeadless}</isHeadless>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
