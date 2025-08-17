@@ -1,0 +1,11 @@
+<suite name="Automation Practice Test Suite" parallel="methods"
+	thread-counts="4" verbose="1">
+	<test name="Ui Automation Test">
+		<parameter name="browser" value="${browser}" />
+		<parameter name="isLambdaTest" value="${isLambdaTest}" />
+		<parameter name="isHeadless" value="${isHeadless}" />" 
+		<classes>
+			<class name="com.ui.tests.LoginTest_New" />
+		</classes>
+	</test>
+</suite>
